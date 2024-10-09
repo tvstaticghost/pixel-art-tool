@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="flex justify-center mt-10 gap-2">
+        <div class="flex flex-col gap-1">
+            <div id="pencilTool" class="selection-tool selected p-2 border-2 border-black"><img src="assets/pencil-fill.svg" alt="pencil-tool"></div>
+            <div id="eraserTool" class="selection-tool not-selected p-2 border-2 border-black"><img src="assets/eraser-fill.svg" alt="eraser-tool"></div>
+            <div id="lineTool" class="selection-tool not-selected p-2 border-2 border-black"><img src="assets/dash-lg.svg" alt="eraser-tool" class="rotate-45"></div>
+        </div>
+        <main id="grid" class="grid">
+
+        </main>
+    </div>
+<script src="test.js"></script>
+</body>
+</html>
